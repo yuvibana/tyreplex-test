@@ -29,7 +29,7 @@ function Testimonials() {
         },
     ]
     return (
-        <div className='Testimonials bg-gray-50 pt-10 lg:pb-14 pb-8 relative lg:mt-0 mt-5'>
+        <div className='Testimonials sliderPagiBullets bg-gray-50 pt-10 lg:pb-14 pb-8 relative lg:mt-0 mt-5'>
             <div className='container relative'>
                 <div className='lg:block hidden reviewGoogle absolute left-5 heading text-2xl text-red-500'>22222 <br /> Google Review</div>
                 <div className='lg:hidden block heading text-2xl text-red-500 text-center mb-5'>22222 <br/> Google Review</div>

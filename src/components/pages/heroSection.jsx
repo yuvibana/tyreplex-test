@@ -6,14 +6,11 @@ import Testimonials from './Testimonials'
 
 function HeroSection() {
     return (
-        <div className='HeroSection lg:pt-8 pt-4 bg-gray-100'>
-            <div className='container'>
-                <div className='flexingSection flex flex-wrap justify-between'>
-                    <HeroContentSide />
-                    <HeroSlider />
-                </div>
+        <div className='HeroSection bg-gray-100'>
+            <div className='container sliderPagiBullets flexingSection flex flex-wrap justify-between items-center'>
+                <HeroContentSide />
+                <HeroSlider />
             </div>
-            <Testimonials />
         </div>
     )
 }

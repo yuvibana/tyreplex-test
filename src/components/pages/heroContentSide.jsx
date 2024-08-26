@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 function HeroContentSide() {
     return (
-        <div className='contentSide lg:w-[49%] w-[100%] lg:mt-0 mt-5 lg:order-1 order-2'>
+        <div className='contentSide lg:w-[49%] w-[100%] lg:mt-0 mt-5 lg:order-1 order-2 lg:pt-10 lg:pb-10 pb-8 pt-3'>
             <div className='heading'>
                 <span className='flex gap-2 w-fit items-center font-bold border border-green-600 px-[2px] rounded mb-2 heading' style={{ color: 'var(--green)' }}><MdOutlineVerifiedUser className=' text-xl font-bold' /> Verified</span>
-                <h2 className='heading text-3xl capitalize descText'>Shree Hemkunt tyres and services</h2>
+                <h2 className='heading lg:text-3xl text-2xl capitalize descText'>Shree Hemkunt tyres and services</h2>
             </div>
             <div className='review flex gap-2 items-center lg:mt-4 mt-3'>
                 <span className=' bg-green-600 text-white inline-block px-2 rounded h-[22px]'>4.9</span>
