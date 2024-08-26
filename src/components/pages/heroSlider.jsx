@@ -16,7 +16,7 @@ function HeroSlider() {
         { id: 4, imgUrl: Localimages.slideImg4 },
     ];
     return (
-        <div className='lg:w-[49%] relative w-[100%] lg:order-2 order-1'>
+        <div className='HeroSliderDiv lg:w-[49%] relative w-[100%] lg:order-2 order-1'>
             <button className="absolute top-[50%] left-[50%] z-10 bg-red-600 p-2" style={{ transform: 'translate(-50%, -50%)' }} title="View Large Image" onClick={() => setOpen(true)}>
                 <MdZoomOutMap className="text-3xl text-white" />
             </button>

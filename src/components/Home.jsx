@@ -1,12 +1,12 @@
-import React from 'react'
-import HeroSection from './pages/heroSection'
-import Testimonials from './pages/Testimonials';
-import SellarDeals from './pages/SellarDeals';
-import ServicesOfferd from './pages/ServicesOfferd';
+import { lazy } from 'react';
+const HeroSection = lazy(() => import('./pages/heroSection'))
+const Testimonials = lazy(() => import('./pages/Testimonials'))
+const SellarDeals = lazy(() => import('./pages/SellarDeals'))
+const ServicesOfferd = lazy(() => import('./pages/ServicesOfferd'))
+const SoldTyres = lazy(() => import('./pages/SoldTyres'))
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import SoldTyres from './pages/SoldTyres';
 
 
 function Home() {
